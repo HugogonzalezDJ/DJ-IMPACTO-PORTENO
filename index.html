@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ IMPACTO PORTEÑO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), 
+                        url('logo.png') center/contain no-repeat;
+            background-size: 70%;
+        }
+        
+        .site-bg {
+            background: linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.92)), 
+                        url('logo.png') center/contain no-repeat fixed;
+            background-size: 55%;
+        }
+
+        .neon-green {
+            color: #22ff00;
+            text-shadow: 
+                0 0 10px #22ff00,
+                0 0 20px #22ff00,
+                0 0 40px #00ff88,
+                0 0 80px #00ff88;
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white site-bg">
+
+    <!-- NAV -->
+    <nav class="bg-black/90 backdrop-blur-md fixed w-full z-50 border-b border-green-500/30">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="font-bold text-xl">
+                <span class="text-green-400">DJ</span> IMPACTO PORTEÑO
+            </div>
+            <a href="#contacto" class="bg-green-600 hover:bg-green-500 px-6 py-3 rounded-full text-sm font-semibold">CONTACTO</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-bg h-screen flex items-center justify-center text-center">
+        <div class="max-w-4xl px-6">
+            <h1 class="text-6xl md:text-8xl font-bold mb-4 neon-green">DJ IMPACTO<br>PORTEÑO</h1>
+            <p class="text-2xl text-green-300 mb-2">MOBILE DJ ENTERTAINMENT • HUGO GONZALEZ</p>
+            <p class="text-xl text-green-400 mb-10">SERVING SAN JOSE AND MORE</p>
+            <a href="#paquetes" class="bg-white text-black px-10 py-5 rounded-full font-bold text-lg">VER PAQUETES</a>
+        </div>
+    </section>
+
+    <!-- PAQUETES -->
+    <section id="paquetes" class="py-20 bg-black/90">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-green-400">MOBILE DJ ENTERTAINMENT</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- BÁSICO -->
+                <div class="bg-zinc-800 rounded-3xl p-8">
+                    <h3 class="text-green-400 font-bold text-3xl mb-2 tracking-widest">BÁSICO</h3>
+                    <div class="text-5xl font-bold">$280</div>
+                    <div class="text-xl mb-6">POR HORA</div>
+                    <ul class="space-y-2 text-sm mb-6">
+                        <li>• 2 ESTRUCTURAS ILUMINADAS.</li>
+                        <li>• 2 LUCES INTELIGENTES (ROBÓTICAS).</li>
+                        <li>• 5 UPLIGHTING.</li>
+                        <li>• 2 PLASMAS (40").</li>
+                        <li>• AUDIO PROFESIONAL + MAQUINA DE HUMO.</li>
+                        <li>• 1 DZ FOAM STICKS.</li>
+                        <li>• 1 SLIDESHOW 25-30 FOTOS.</li>
+                        <li>• FOTO Y NOMBRE EN LAS PANTALLAS.</li>
+                        <li>• MAESTRO DE CEREMONIA + REMIX.</li>
+                        <li>• ORGANIZAMOS EL EVENTO DE PRINCIPIO A FIN.</li>
+                    </ul>
+                    <div class="bg-green-900/50 text-green-400 text-sm font-bold py-3 px-4 rounded-2xl text-center">
+                        30% DE SEÑA PARA FIRMAR EL CONTRATO
+                    </div>
+                </div>
+
+                <!-- INTERMEDIO -->
+                <div class="bg-zinc-800 rounded-3xl p-8">
+                    <h3 class="text-green-400 font-bold text-3xl mb-2 tracking-widest">INTERMEDIO</h3>
+                    <div class="text-5xl font-bold">$2,000</div>
+                    <div class="text-xl mb-6">6 HORAS DE MÚSICA</div>
+                    <ul class="space-y-2 text-sm mb-6">
+                        <li>• 2 ESTRUCTURAS ILUMINADAS.</li>
+                        <li>• 4 LUCES INTELIGENTES (ROBÓTICAS).</li>
+                        <li>• 10 UPLIGHTING.</li>
+                        <li>• 2 PLASMAS (65").</li>
+                        <li>• AUDIO PROFESIONAL + MAQUINA DE HUMO.</li>
+                        <li>• 3DZ FOAM STICKS.</li>
+                        <li>• 1 SLIDESHOW 25-30 FOTOS.</li>
+                        <li>• FOTO Y NOMBRE EN LAS PANTALLAS.</li>
+                        <li>• MAESTRO DE CEREMONIA + REMIX.</li>
+                        <li>• ORGANIZAMOS EL EVENTO DE PRINCIPIO A FIN.</li>
+                        <li>• NUMERO 15 OR XV ILUMINADO PARA DECORACION.</li>
+                    </ul>
+                    <div class="bg-green-900/50 text-green-400 text-sm font-bold py-3 px-4 rounded-2xl text-center">
+                        30% DE SEÑA PARA FIRMAR EL CONTRATO
+                    </div>
+                </div>
+
+                <!-- PREMIUM -->
+                <div class="bg-zinc-800 rounded-3xl p-8 border-2 border-green-400 relative">
+                    <!-- MOST POPULAR BADGE -->
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white text-sm font-bold px-6 py-1 rounded-full">
+                        THE MOST POPULAR
+                    </div>
+                    
+                    <h3 class="text-green-400 font-bold text-3xl mb-2 tracking-widest mt-4">PREMIUM</h3>
+                    <div class="text-5xl font-bold">$2,800</div>
+                    <div class="text-xl mb-6">7 HORAS DE MÚSICA</div>
+                    <ul class="space-y-2 text-sm mb-6">
+                        <li>• 4 ESTRUCTURAS ILUMINADAS.</li>
+                        <li>• 8 LUCES INTELIGENTES (ROBÓTICAS).</li>
+                        <li>• 20 UPLIGHTING.</li>
+                        <li>• 4 PLASMAS (65").</li>
+                        <li>• AUDIO PROFESIONAL + MAQUINA DE HUMO.</li>
+                        <li>• 4 DZ FOAM STICKS.</li>
+                        <li>• 1 SLIDESHOW 25-30 FOTOS.</li>
+                        <li>• FOTO Y NOMBRE EN LAS PANTALLAS.</li>
+                        <li>• MAESTRO DE CEREMONIA + REMIX.</li>
+                        <li>• ORGANIZAMOS EL EVENTO DE PRINCIPIO A FIN.</li>
+                        <li>• NUMERO 15 OR XV ILUMINADO PARA DECORACION.</li>
+                    </ul>
+                    <div class="bg-green-900/50 text-green-400 text-sm font-bold py-3 px-4 rounded-2xl text-center">
+                        30% DE SEÑA PARA FIRMAR EL CONTRATO
+                    </div>
+                </div>
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+            <div class="mt-16 text-center" id="contacto">
+                <div class="text-3xl font-bold mb-2">HUGO GONZALEZ</div>
+                <div class="text-4xl font-mono text-green-400 mb-1">408-497-7083</div>
+                <div class="text-green-400 mb-8">JAROCHO24081@GMAIL.COM</div>
+
+                <div class="flex justify-center gap-8 text-4xl mb-4">
+                    <a href="https://www.facebook.com/Djimpacto1" target="_blank" class="hover:text-blue-400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/dj_impacto_porteño" target="_blank" class="hover:text-pink-400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@djimpacto1" target="_blank" class="hover:text-black"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
